@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+   color:white;
+   font-size:60px;
+   font-family:"Times New Roman",Times,serif;
+   font-style:italic;
+ }
+
+img {
+  float:left;
+}
+
+body {
+       background-color:black;
+	border: 1px solid red;
+  	padding-top: 50px;
+  	padding-right: 50px;
+  	padding-bottom: 50px;
+  	padding-left: 50px;
+     }
+li a{
+     list-style-type:none;
+     background-color:black;
+     color:red;
+     text-decoration:none;
+   }
+li{display:inline;}
+h2{
+   color:white;
+   font-size:30px;
+   font-family:"Times New Roman",Times,serif;
+   font-style:italic;
+	border: 2px solid orange;
+  	padding-top: 20px;
+  	padding-right: 50px;
+  	padding-bottom: 50px;
+  	padding-left: 50px;
+	height: 10px;
+        width: 500px;
+}
+table{
+	outline-color:white;
+	outline-style:solid;
+	}
+
+#students{
+	font-family:"Comic Sans MS",Cursive,sans-serif;
+        border-collapse:collapse;
+        width:50%; 
+	color:white;
+	
+	}
+
+#students td,#students th{
+	border:1px solid white;
+	border-color:white;
+	padding:10px;
+	color:white;
+	}
+#students tr:nth-child(even){
+	background-color:gray;
+	text-align:center;
+        
+	}
+#students th{
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+        color:white;
+}
+#p1 {
+
+        background-color: red;
+}
+#img1{
+    position: absolute;
+    left:0px;	
+    z-index:-1;
+    margin: 0px 500px 400px 300px;
+}
+p{  color: Red;
+    font-size:30px;
+    
+}
+h3{
+   color:blue;
+   font-size:10px;
+}
+h3.hidden {
+        visibility:hidden;
+}
+
+
+ol{
+    font-size:30px;
+    background:black;
+    color:white; 
+    list-style-position:outside;
+    margin: 300px 400px 50px 150px;
+}
+ul{
+    font-size:30px;
+    background:black;
+    color:white;
+    list-style-position:outside;
+    margin: 20px 100px 50px 50px;
+    
+}
+
+input[type="button"] {
+  width: 50px;
+  height: 20px;
+  margin-left:45px;
+  display: block;
+  text-align:center;
+}
+
+
+
+
+#submit:link {
+  color: white;
+  background-color:white;
+  padding:14px 25px;
+  text-align:center;
+  
+}
+#submit:visited {
+   color: green;
+   background-color:white;
+   padding:14px 25px;
+   text-align:center;
+}
+#submit:hover {
+  color: hotpink;
+  background-color:white;
+  padding:14px 25px;
+  text-align:center;
+}
+#submit:active {
+  color: blue;
+  background-color:white;
+  padding:14px 25px;
+  text-align:center;
+}
+
+</style>
+</head>
+<body>
+	
+	<img  src = "http://www.madrasmediacollege.com/wp-content/uploads/2015/10/webdesign-300x252.png" width="150" height="150" >
+	<center><h1>WEB DEVELOPMENT</h1></center><br>
+	<hr>
+	<ul>
+	<li><a href="https://www.conduiraonline.com">Home &nbsp;&nbsp;</a></li>
+	<li><a href="https://www.conduiraonline.com/index.php/component/users/?view=login">Registration &nbsp;&nbsp;</a></li>
+	<li><a href="https://www.conduiraonline.com/index.php/contact-us">Contact &nbsp; &nbsp;</a></li>
+	<li><a href="https://www.conduira.com/conduira/about-conduira">About</a></li>
+	</ul>
+	
+ 	<br><br><br><center><img id="img1" src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png" width ="700" height="400"></center><br><br><br><br>
+	<center><p>Welcome to Web Designing </p></center>
+        <br><br>
+
+		<ol>Learning Areas
+		<ul>
+  		<li>Html<br></li>
+		<li>CSS<br></li> 
+		<li>Java Script<br></li>
+    		<li>Web forms<br></li>
+    		<li>Accessibility<br></li>
+    		<li>Web performance<br></li>
+    		<li>Tools and Testing<br></li>
+    		</ul></ol>
+	
+	<center><h2>Enrollment of the student</h2></center>
+        <form><center><table id="students" border="1" cellpadding="5">
+	<tbody><center>
+	<tr>
+	<th>S.no</th><th>Qualification</th><th>Student</th><th>Institution</th><th>Contact</th></tr>
+        <tr>
+		<td><p2 id="p3">1.</p2></td>
+		<td><p1 id="p2">BTech</p1></td>
+		<td><p1 id="p2">John</p1></td>
+		<td><p2 id="p2">ABC</p2></td><td><p2 id="p2">5563322952</p2></td>
+	</tr>
+	<tr><td><p1 id="p3">2.</p2></td><td><p1 id="p1">Btech</p1></td><td><p1 id="p1">Tom</p1></td><td><p1 id="p1">XYZ</p1></td><td><p1 id="p1">5743788493</p1></td></tr>
+	<tr><td><p1 id="p3">3.</p2></td><td><p2 id="p2">Btech</p2></td><td><p2 id="p2">Karuna</p2></td><td><p2 id="p2">BTG</p2></td><td><p2 id="p2">67498302223</p2></td></tr>	
+	<tr><td><p1 id="p3">4.</p2></td><td><p1 id="p1">BTech</p1></td><td><p1 id="p1">Taruni</p1></td><td><p1 id="p1">HTMG</p1></td><td><p1 id="p1">9545663672</p1></td></tr>
+	<tr><td><p1 id="p3">5.</p2></td><td><p2 id="p2">BTech</p2></td><td><p2 id="p2">Harish</p2></td><td><p1 id="p2">ANMS</p2></td><td><p1 id="p2">68379299292</p2></td></tr>
+	</tbody></table></center></form><br><br><br>
+
+	<center><input type="button" value="Submit"></center><br><br><br>
+        <center><h3>This Content is hidden</h3></center>
+	<h3 class="hidden">Content not visible</h3>
+    
+	<p><center><a id="submit" href="https://www.awwwards.com/websites/clean" target="_blank">view sample websites</a></center></p>      
+
+</body>
+</html>
